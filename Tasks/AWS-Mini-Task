@@ -1,0 +1,63 @@
+## AWS Mini Task :
+   
+ ###  Requirement : 
+  
+
+
+
+- Create VPC with /16 range
+![preview](./images/main-1.png)
+- Create IGW for VPC
+
+- Create Two Subnets
+- Pub and Pvt
+- Pub Should have 4k Ip's
+- Pvt Should Have 256 Ip's
+![preview](./images/main-3.png)
+![preview](./images/main-4.png)
+![preview](./images/main-5.png)
+![preview](./images/main-6.png)
+![preview](./images/main-7.png)
+![preview](./images/main-8.png)
+![preview](./images/main-9.png)
+![preview](./images/main-10.png)
+![preview](./images/main-11.png)
+![preview](./images/main-12.png)
+![preview](./images/main-13.png)
+![preview](./images/main-15.png)
+![preview](./images/main-16.png)
+![preview](./images/main-17.png)
+![preview](./images/main-18.png)
+- Create 3 servers across diff subnets.
+
+- These servers are used for running application
+- Create a DB - using RDS
+![preview](./images/main-19.png)
+![preview](./images/main-20.png)
+
+- CODE For the Project - https://github.com/Ai-TechNov/On-Premise-Deployement.git
+
+- Create 3 ec2 instance across Pvt-Subnets
+
+- Deploy Above mentioned python code on the ec2's
+- Create and Integrate RDS - DB within the code across all the 3 ec2. 
+- As the app is running on PVT, it should be accessible via www !!
+- The DB should be purely Pvt, and access should remian strictly to the admin !!
+![preview](./images/main-21.png)
+![preview](./images/main-22.png)
+![preview](./images/main-23.png)
+- For the Above infra, i want load-balancing to be configured.
+- I want  Auto scaling for the 3 ec2's in order to avoid FT.
+- These instances should be monitored and notificaitons should be in place !!
+
+- Finally, The routing should happen via, ROUTE-53 using a Custom domain !
+
+- IF any users browses the CDN, it should reach to app, where the app should collect user info and store it to the DB.
+But, i want all the infra to be deployed in pvt-resources !! 
+![preview](./images/main-24.png)
+![preview](./images/main-25.png)
+![preview](./images/main-26.png)
+![preview](./images/main-27.png)
+![preview](./images/main-28.png)
+![preview](./images/main-29.png)
+![preview](./images/main-30.png)
