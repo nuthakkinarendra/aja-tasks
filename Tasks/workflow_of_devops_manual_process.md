@@ -1,0 +1,8 @@
+![preview](./images/manual_pics/jfrog-1.png)
+![preview](./images/manual_pics/jfrog-2.png)
+![preview](./images/manual_pics/jfrog-3.png)
+![preview](./images/manual_pics/jfrog-4.png)
+![preview](./images/manual_pics/jfrog-5.png)
+![preview](./images/manual_pics/jfrog-6.png)
+![preview](./images/manual_pics/jfrog-7.png)
+![preview](./images/manual_pics/jfrog-8.png)
